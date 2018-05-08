@@ -1,0 +1,47 @@
+<acceptance-test-run title="Happy Path" name="Happy Path" description="" steps="3" successful="1" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="111343" timestamp="2018-03-16T11:03:19.413-04:00" session-id="c39884cbf3699bc0d3c70ef9d58230b0">
+  <user-story id="simple-web-app" name="Simple Web App" path="WebSheetApp/ApExWebSheet.feature"/>
+  <tags>
+    <tag name="Web sheet app" type="epic"/>
+    <tag name="Simple Web App" type="feature"/>
+    <tag name="Web sheet app/Simple web app" type="feature"/>
+  </tags>
+  <test-group name="Given User navigate to Simple Web Sheet Login Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f5200d8a8eee6519772a1c1f275cbc45.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="9889">
+      <screenshots>
+        <screenshot image="f5200d8a8eee6519772a1c1f275cbc45.png"/>
+      </screenshots>
+      <description>Open log in page</description>
+    </test-step>
+  </test-group>
+  <test-step result="ERROR" duration="100992">
+    <screenshots>
+      <screenshot image="f5200d8a8eee6519772a1c1f275cbc45.png" source="pagesource7844707672403479957.html.txt"/>
+    </screenshots>
+    <description>When User Sing In with Valid user name and valid password</description>
+    <error>org.openqa.selenium.NoSuchElementException: Timed out after 50 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SHAJIB&apos;, ip: &apos;192.168.160.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SHAJIB&apos;, ip: &apos;192.168.160.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Timed out after 50 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SHAJIB&apos;, ip: &apos;192.168.160.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SHAJIB&apos;, ip: &apos;192.168.160.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown&#xd;
+[net.serenity.bdd.junit.cucumber.pages.LoginPage.performLogIn(LoginPage.java:29), net.serenity.bdd.junit.cucumber.stepDef.WebSheetStepDef.user_Sing_In_with_Valid__valid(WebSheetStepDef.java:36), ✽.When User Sing In with Valid user name and valid password(WebSheetApp/ApExWebSheet.feature:4)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User do some administrative work on Dashbord</description>
+  </test-step>
+</acceptance-test-run>
